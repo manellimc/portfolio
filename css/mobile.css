@@ -1,0 +1,40 @@
+@media only screen and (max-device-width:800px) {
+    
+    body{
+        font-size:2em;
+    }
+    .row{
+      width:90%;
+        margin: auto;
+    }
+    .tittext{
+        font-size:2.5em;
+        
+    }
+    .extext{
+        font-size:2em;
+        display:none;
+    }
+     .workslide, .menu, .title a, .titlesection, .scrolling, .subtitle{
+        font-size:4em;
+    }
+    .scrolling{
+        font-size: 3em;
+        margin-top:-10%;
+    }
+    .sidemenu{
+        margin-left: 10%;
+        margin-top: -40%;
+    }
+    .titlesection{
+        margin-left:2%;
+    }
+    .social-box{
+        font-size: 1.5em;
+        margin-left: -15%;
+    }
+    .scrolling{
+        display: none;
+    }
+}
+

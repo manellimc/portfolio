@@ -1,0 +1,466 @@
+/* css home */
+$scroll-factor : .5;
+
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+
+html,
+body {
+    margin: 0;
+    width: 100%;
+    background: #000;
+}
+
+.container-fluid {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+}
+
+.cathegories {
+    width: 100%;
+    padding: 2%;
+    margin:auto;
+    margin-bottom: 8%;
+}
+
+
+.img-fluids {
+  font-family: 'Karla', sans-serif;
+
+    max-width: 100%;
+    transition: .25s;
+    position: block;
+    top: 0;
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: red(100%);
+
+}
+
+.img-fluids:hover {
+    max-width: 100%;
+    opacity: 1;
+    transition: .25s;
+    top: 10;
+    -webkit-transform: translate(-5%, -5%);
+    -ms-transform: translate(-5%, -5%);
+    transform: translate(-5%, -5%);
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+
+.elencoimg {
+    margin-top: 12%;
+    cursor: pointer;
+}
+
+.web {
+    margin-top: 5%;
+    height: 10%;
+}
+
+.hor {
+    width: 80%;
+        margin-left: 10%
+
+
+}
+
+.ver {
+    width: 45%;
+    margin-left: 26%
+}
+
+.middle {
+    margin-top: 4%;
+
+}
+
+.menu {
+    width: 100%;
+    text-align: center;
+   font-family: 'Karla', sans-serif;
+
+    font-size: 20px;
+    margin-top: 2%;
+    position: fixed;
+    top: 0%;
+}
+
+.title {
+    text-align: center;
+   font-family: 'Karla', sans-serif;
+
+    font-size: 20px;
+    position: fixed;
+    top: 47%;
+}
+
+.titlesection {
+    font-size: 3em;
+    text-align: center;
+  font-family: 'Karla', sans-serif;
+
+    position: fixed;
+    top: 10%;
+    left: 3%;
+}
+
+.subtitle {
+    text-align: center;
+   font-family: 'Karla', sans-serif;
+
+    font-size: 20px;
+    position: fixed;
+    top: 90%;
+}
+
+
+.rotate {
+    -webkit-transform: rotate(-90deg);
+}
+
+.menupar {
+    font-size: 0.8em;
+    top: -1;
+}
+
+.lasttitle {
+    margin-top: 90%;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    transition: .25s;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: none;
+    transition: .25s;
+    cursor: pointer;
+}
+
+.mm {
+    width: 5%;
+    margin: auto;
+    transition: .25s;
+    cursor: pointer;
+}
+
+.mm:hover {
+    background-color: #000;
+    color: #fff;
+    transition: .25s;
+    cursor: pointer;
+
+}
+
+.underline {
+    transition: .25s;
+    transform: scaleX(0);
+    text-decoration: none;
+}
+
+.underline:hover {
+
+    transition: .25s;
+    transform: scaleX(7);
+    text-decoration: line-through;
+    color: #000;
+}
+
+
+.hoverill {
+    opacity: 0;
+    transition: .25s;
+    color: #000;
+    font-size: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hoverill:hover {
+    opacity: 1;
+    transition: .25s;
+    color: #000;
+    font-size: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.workslide {
+    cursor: pointer;
+}
+
+.workslide:hover {
+    text-decoration: line-through;
+}
+
+.sidemenu {
+    display: none;
+    position: fixed;
+    top: 43%;
+    left: 5%;
+    padding: 0;
+    width: 13%;
+}
+
+.row {
+    width: 100%;
+
+}
+
+.photos {
+    width: 90%;
+    margin: auto;
+}
+
+/*
+.left {
+    left: -1%
+}
+*/
+
+
+.last {
+    margin-bottom: 8%;
+    margin-top: 1%;
+    cursor: pointer;
+}
+
+.tittext {
+    font-size: 1.5em;
+}
+.seeweb{
+    font-size: 1.5em;
+    color: red;
+    opacity: 0.7;
+}
+.seeweb:hover{
+    text-decoration: line-through;
+    
+}
+
+.tagimg {
+    height: 58.5vh;
+    position: fixed;
+    top: 24.3%;
+    margin-left: 3%;
+}
+
+.tagfixed {
+    position: fixed;
+    top: 23vh;
+
+}
+
+.rotation {
+    -webkit-transform: rotate(-45deg);
+}
+
+.extext {
+    font-size: 0.9em;
+    text-align: left;
+
+}
+b{
+    font-family: 'Karla', sans-serif;
+
+}
+.spantag {
+    display: fixed;
+    cursor: pointer;
+    margin-left: 80%;
+
+}
+
+.spantag:hover {
+    display: fixed;
+    top: 24.3%;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    font-size: 100%;
+
+}
+
+.xtag01 {
+    width: 4%;
+    text-align: right;
+    position: fixed;
+    top: 23%;
+    cursor: pointer;
+    font-size: 2em;
+    margin-left: 85%;
+}
+
+
+.descimg {
+ font-family: 'Karla', sans-serif;
+
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9 {
+    padding-left: 0.5%;
+    padding-right: 0%;
+}
+
+.scrolling2{
+    opacity: 0;
+}
+
+.testo{
+    margin-top: 15%
+}
+.row{
+    margin-left:0;
+    margin-right:0;
+}
+.photos{
+    margin: auto;
+}
+
+.titlesection{
+        text-align: left;
+
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 1.9%;
+    transition: .25s;
+    
+}
+.titlesection:hover{
+    text-decoration: line-through;
+    margin-left: 1%;
+    transition: .25s;
+}
+
+iframe{
+    border-style: none;
+border-width:0;    
+}
+video{
+    width: 100%;
+}
+.cover {
+    width: 100%;
+    margin-bottom: 5%;
+    padding: 0 0 0 0;
+}
+.w1{margin-top:30%;}
+.w2{width: 80%;
+margin-left: 10%}
+.w3{margin-top:30%;}
+.w4{margin-top:20%}
+.w5{width: 70%;
+margin-left: 20%;
+    margin-top:40%
+}
+.w6{margin-top:30%}
+.w7{margin-top:}
+.w8{margin-top:20%;}
+.w9{margin-top:}
+.w10{margin-top:}
+
+.m_ill1{
+    margin-top:40%;
+}
+.m1{margin-top: 10%;}
+.m2{margin-top: 15%;
+}
+.m3{margin-top:6%;}
+.m4{margin-top:2%;}
+
+body{
+    font-family: 'Karla', sans-serif;
+
+}
+@media only screen and (max-device-width:800px) {
+/*
+    body{
+        margin-top: 50%;
+    }
+*/
+    .topp .elencoimg{
+         margin-top:85%;
+    }
+    .topp .last{
+         margin-top: 30%;
+    }
+    .scrolling2{
+        margin-top: 20%;
+    }
+    .works{
+        margin-top: 30%;
+        margin-bottom:30%;
+    }
+    .tittext{
+        margin-top:-100%;
+    }
+}
